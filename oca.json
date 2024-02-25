@@ -1,0 +1,77 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "name": "Text",
+        "branch": "Text"
+      },
+      "classification": "",
+      "digest": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+      "flagged_attributes": [
+        "name"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_character_encoding": {
+          "name": "utf-8",
+          "branch": "utf-8"
+
+        },
+        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+        "default_character_encoding": "utf-8",
+        "digest": "E-HUFu1rj2RESNP8LYpo-kr0IiGghzmn-yjZb8w2-gy0",
+        "type": "spec/overlays/character_encoding/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "name": "Name",
+          "branch": "Branch"
+        },
+        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+        "category_labels": {},
+        "digest": "ENR3_iqVATq5dWx_I4YzKbf35mv-OipIdbnNt4nGmsJU",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "name": "The first name of the Smartfalcon College student.",
+          "branch": "The first name of the Smartfalcon College student."
+        },
+        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+        "digest": "Emn1K6J6RaTBWEjhjTDj3WYErRvleBKATs6adzcqPTc8",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+        "credential_help_text": "This is an example of a simple student card that might be issued by a Canadian University or College.",
+        "credential_support_url": "mailto:DItrust@gov.bc.ca",
+        "description": "An example Student Card that might be issued from a Canadian University or College",
+        "digest": "EZ6QKl1zTJplRtOL7z7q_Tfg8kTMghmTFE3e5S3CDlFo",
+        "issuer": "Best BC College",
+        "issuer_description": "Best BC College",
+        "issuer_url": "https://digital.gov.bc.ca/digital-trust/contact/",
+        "language": "en",
+        "name": "DEMO - Student Card",
+        "type": "spec/overlays/meta/1.0",
+        "watermark": "NON-PRODUCTION"
+      },
+      {
+        "logo": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-background-image-slice.jpg",
+        "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-background-image.jpg",
+        "primary_background_color": "#32674e",
+        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+        "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+        "expiry_date_attribute": "",
+        "primary_attribute": "first_name",
+        "secondary_attribute": "",
+        "type": "aries/overlays/branding/1.0"
+      }
+    ]
+  }
+]
