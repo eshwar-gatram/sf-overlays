@@ -1,5 +1,4 @@
-[
-  {
+{
     "capture_base": {
       "attributes": {
         "name": "Text",
@@ -74,4 +73,3 @@
       }
     ]
   }
-]
